@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Socket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page" id="loginPage">
+      <h1>Digite seu nome</h1>
+      <input type="text" id="loginPageInput" />
+    </div>
+
+    <div class="page" id="chatPage">
+      <div class="chatArea">
+        <ul class="chatList">
+
+        </ul>
+        <ul class="usersList"></ul>
+      </div>
+      <div class="chatInput">
+        <input
+          type="text"
+          placeholder="Digite sua mensagem (e aperte ENTER)"
+          id="chatTextInput"
+        />
+        
+      </div>
+    </div>
+
+    <div id="offPage">
+      <h1>
+        Você foi desconectado :/ <br>
+        <span id="typingEffect">Tentando reconectar...</span>
+      </h1>
+    </div>
+  </body>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</html>
