@@ -12,7 +12,7 @@ const server = http.createServer(app)
 const io = socketIO(server)
 
 server.listen(3000, () => {
-   console.log("Servidor rodando...")
+   console.log("Servidor rodando em: http://localhost:3000")
 })
 
 
