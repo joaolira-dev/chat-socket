@@ -11,13 +11,13 @@ Projeto de chat em tempo real construído com Node.js, Express e Socket.io. Perm
 
 ## 📸 Preview
 
-![Chat Preview](https://via.placeholder.com/800x400?text=Preview+do+Chat)
+![Print do Projeto](public/assets/images/screenshot.png)
 
 ## 🛠️ Instalação e Uso
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/chat-socket.git
+   git clone https://github.com/joaolira-dev/chat-socket
    cd chat-socket
    ```
 
