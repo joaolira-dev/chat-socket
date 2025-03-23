@@ -17,7 +17,7 @@ Projeto de chat em tempo real construído com Node.js, Express e Socket.io. Perm
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/chat-socket.git
+   git clone https://github.com/joaolira-dev/chat-socket
    cd chat-socket
    ```
 
